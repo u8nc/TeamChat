@@ -6,7 +6,21 @@ A Chat app where there are differing combinations of visibilty between the parti
 A variant is also when a group leader is able to switch participant statuses in and out according to the context of the situation.
 
 It is also hoped that chat histories can be made visible to newcomers to the chat. 
-Currently this project will use Firebase, but not necessarily so in the future.
+Currently this project will use a combination of Firebase and On-device Data Persistence using Realm.
 
-![alt tag](http://www.u8nc.com.au/apps/teamchat/TacherOverview.png "An Overview as first seen by the leader")
+# design intents
+![alt tag](http://www.u8nc.com.au/apps/teamchat/Overview.png "An Overview as first seen by the leader")
 <br>
+The instructors topmost view
+<br>
+![alt tag](http://www.u8nc.com.au/apps/teamchat/Selection.png "A Teacher makes a Selection")
+<br>
+The leader/instructor/teacher is able to select student for closer dialogue
+<br>
+![alt tag](http://www.u8nc.com.au/apps/teamchat/Interaction.png "An instructor interacting")
+<br>
+The leader/instructor/teacher is able to select student for closer dialogue
+<br>
+![alt tag](http://www.u8nc.com.au/apps/teamchat/Student.png "As seen by the student")
+<br>
+As seen by the student
