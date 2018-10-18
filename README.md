@@ -17,10 +17,6 @@ The leader/instructor/teacher is able to select student for closer dialogue
 <br>
 ![alt tag](http://www.u8nc.com.au/apps/teamchat/Selection.png "A Teacher makes a Selection")
 <br>
-The leader/instructor/teacher is able to select student for closer dialogue
-<br>
-![alt tag](http://www.u8nc.com.au/apps/teamchat/Interaction.png "An instructor interacting")
-<br>
 As seen by the student
 <br>
 ![alt tag](http://www.u8nc.com.au/apps/teamchat/Student.png "As seen by the student")
