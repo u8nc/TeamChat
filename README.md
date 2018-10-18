@@ -9,9 +9,11 @@ It is also hoped that chat histories can be made visible to newcomers to the cha
 Currently this project will use a combination of Firebase and On-device Data Persistence using Realm.
 
 # design intents
+The instructors topmost view
+<br>
 ![alt tag](http://www.u8nc.com.au/apps/teamchat/Overview.png "An Overview as first seen by the leader")
 <br>
-The instructors topmost view
+The leader/instructor/teacher is able to select student for closer dialogue
 <br>
 ![alt tag](http://www.u8nc.com.au/apps/teamchat/Selection.png "A Teacher makes a Selection")
 <br>
@@ -19,8 +21,8 @@ The leader/instructor/teacher is able to select student for closer dialogue
 <br>
 ![alt tag](http://www.u8nc.com.au/apps/teamchat/Interaction.png "An instructor interacting")
 <br>
-The leader/instructor/teacher is able to select student for closer dialogue
+As seen by the student
 <br>
 ![alt tag](http://www.u8nc.com.au/apps/teamchat/Student.png "As seen by the student")
-<br>
-As seen by the student
+
+
