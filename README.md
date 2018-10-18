@@ -7,3 +7,6 @@ A variant is also when a group leader is able to switch participant statuses in 
 
 It is also hoped that chat histories can be made visible to newcomers to the chat. 
 Currently this project will use Firebase, but not necessarily so in the future.
+
+![alt tag](http://www.u8nc.com.au/apps/teamchat/TacherOverview.png "An Overview as first seen by the leader")
+<br>
