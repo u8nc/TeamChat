@@ -18,7 +18,7 @@ class ViewController: UITableViewController {
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        tableView.estimatedRowHeight = 84
+        tableView.estimatedRowHeight = 80
         tableView.rowHeight = UITableView.automaticDimension
     }
     
@@ -32,7 +32,7 @@ class ViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell" )! as! TableViewCell
         
         let content = model.latinArray[indexPath.row]
-        cell.textView.text = content
+        cell.txtLabel!.text = content
        // cell.textLabel?.numberOfLines = 0
         
         return cell

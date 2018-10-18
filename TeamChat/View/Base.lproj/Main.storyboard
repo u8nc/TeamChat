@@ -5,7 +5,7 @@
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14313.18"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,29 +18,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="131" id="V14-Bg-TSQ" customClass="TableViewCell" customModule="TeamChat" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="131"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="V14-Bg-TSQ" customClass="TableViewCell" customModule="TeamChat" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="V14-Bg-TSQ" id="S8G-38-tZi">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="130.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="icy-Cv-vOB">
-                                            <rect key="frame" x="12" y="2" width="351" height="126.5"/>
-                                            <color key="backgroundColor" red="0.98614794129040584" green="1" blue="0.93432790166196389" alpha="0.67484595070422537" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLl-OI-Zio">
+                                            <rect key="frame" x="12" y="2" width="351" height="75.5"/>
+                                            <color key="backgroundColor" red="0.91879309661813235" green="1" blue="0.86660229167436587" alpha="0.67484595070422537" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="icy-Cv-vOB" secondAttribute="bottom" constant="2" id="l4C-YW-IFO"/>
-                                        <constraint firstItem="icy-Cv-vOB" firstAttribute="top" secondItem="S8G-38-tZi" secondAttribute="top" constant="2" id="wDT-e1-CI0"/>
-                                        <constraint firstItem="icy-Cv-vOB" firstAttribute="leading" secondItem="S8G-38-tZi" secondAttribute="leading" constant="12" id="z0m-r3-sCE"/>
-                                        <constraint firstAttribute="trailing" secondItem="icy-Cv-vOB" secondAttribute="trailing" constant="12" id="zxk-XO-DBL"/>
+                                        <constraint firstItem="SLl-OI-Zio" firstAttribute="leading" secondItem="S8G-38-tZi" secondAttribute="leading" constant="12" id="9yw-WW-uBu"/>
+                                        <constraint firstAttribute="bottom" secondItem="SLl-OI-Zio" secondAttribute="bottom" constant="2" id="GnN-cm-e8E"/>
+                                        <constraint firstItem="SLl-OI-Zio" firstAttribute="top" secondItem="S8G-38-tZi" secondAttribute="top" constant="2" id="RME-YG-hi8"/>
+                                        <constraint firstAttribute="trailing" secondItem="SLl-OI-Zio" secondAttribute="trailing" constant="12" id="uvc-QA-nYj"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="textView" destination="icy-Cv-vOB" id="K3C-pt-j2y"/>
+                                    <outlet property="txtLabel" destination="SLl-OI-Zio" id="sV5-rs-JjP"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
